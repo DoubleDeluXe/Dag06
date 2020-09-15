@@ -9,4 +9,10 @@ public class Dag06 {
         System.out.println("Test methode");
     }
 
+    @Test
+    void eenNieuweMethode() {
+        System.out.println("Een wijziging");
+
+    }
+
 }
