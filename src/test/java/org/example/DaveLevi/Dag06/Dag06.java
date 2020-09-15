@@ -6,9 +6,7 @@ public class Dag06 {
 
     @Test
     void methode(){
-
-
-
+        System.out.println("Test methode");
     }
 
 }
