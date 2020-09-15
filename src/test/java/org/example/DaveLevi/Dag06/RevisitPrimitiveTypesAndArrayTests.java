@@ -2,6 +2,8 @@ package org.example.DaveLevi.Dag06;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class RevisitPrimitiveTypesAndArrayTests {
@@ -45,6 +47,7 @@ public class RevisitPrimitiveTypesAndArrayTests {
         int leeftijd;     // een int declareren
         int[] leeftijden; // Een int Array declareren
         leeftijd = 10;
+        System.out.println(leeftijd);
         leeftijden = new int[10];
         int leeftijdOpIndex = leeftijden[0];
         System.out.println(leeftijdOpIndex);
@@ -59,10 +62,36 @@ public class RevisitPrimitiveTypesAndArrayTests {
         leeftijden[8] = 27;
         leeftijden[9] = 77;
         int sum = 0;
-        for(int i = 0; i < leeftijden.length;i++) {
-            sum = sum + leeftijden[i];
+        for (int j : leeftijden) {
+            sum = sum + j;
         }
         System.out.println(sum);
+    }
+    @Test
+    void eenNogHandigereManier() {
+        int[] leeftijden = {74, 26, 43, 84, 19, 22, 31, 78, 27, 77};
+        int sum = 0;
+        for (int j = 0; j < leeftijden.length; j++) {
+            sum = sum + j;
+            System.out.println(leeftijden[j]);
+        }
+        System.out.println(sum);
+    }
 
+    @Test
+    void HandigereForloopDeEnhancedForloop() {
+        int[] leeftijden = {74, 26, 43, 84, 19, 22, 31, 78, 27, 77};
+        int sum = 0;
+        for (int j : leeftijden) {
+            sum = sum + j;
+        }
+        System.out.println(sum);
+    }
+
+    @Test
+    void hetMakenVanEenStriungArray() {
+        String[] namen = {"Sjoerd","Sam","Majid","Changir","Rein","Dennis","Evan","Mike","Dave","Joshua"};
+        Arrays.sort(namen);
+        System.out.println(Arrays.toString(namen));
     }
 }
