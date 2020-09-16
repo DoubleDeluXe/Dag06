@@ -8,38 +8,37 @@ public class Dag06LinksDriehoek {
 
 
     @Test
-    void rechterDriehoek() {
+    void linkerDriehoek() {
         System.out.println("hoe groot mag de 3-hoek?");
         Scanner eye = new Scanner(System.in);
         int size = eye.nextInt();
 
-        printAt();
+
         System.out.println();
-        for (int i = 0; i < size; i++) {
-            rechterDriehoekOpbouwen(i);
-            System.out.println();
-        }
         for (int i = 0; i < size-1; i++) {
-            rechterDriehoekAfbouwen(i, size-1);
+            linkerDrioehoekAfbouwen(i, size-1);
             System.out.println();
         }
-        printAt();
+
+        for (int i = 0; i < size; i++) {
+            linkerDriehoekOpbowen(i);
+            System.out.println();
+        }
+
+
     }
 
-    void rechterDriehoekOpbouwen(int i) {
-        printAt();
+    void linkerDriehoekOpbowen(int i) {
         for (int j = 0; j <= i; j++) {
             printStar();
         }
-        printAt();
+
 
     }
-    void rechterDriehoekAfbouwen(int i, int size) {
-        printAt();
+    void linkerDrioehoekAfbouwen(int i, int size) {
         for (int j = size; i < j; j = j -1){
             printStar();
         }
-        printAt();
     }
 
     void printStar() {
