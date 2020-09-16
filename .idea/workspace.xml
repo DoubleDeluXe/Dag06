@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba95e48b-cb82-4cf0-8f4f-33e060e591a2" name="Default Changelist" comment="" />
+    <list default="true" id="ba95e48b-cb82-4cf0-8f4f-33e060e591a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -26,8 +33,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Dag06LinksDriehoek.linkerDriehoek">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -39,6 +47,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dag06LinksDriehoek.linkerDriehoek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dag06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DaveLevi.Dag06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.Dag06LinksDriehoek" />
+      <option name="METHOD_NAME" value="linkerDriehoek" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dag06.rechterDriehoek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dag06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DaveLevi.Dag06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.Dag06" />
+      <option name="METHOD_NAME" value="rechterDriehoek" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Dag06LinksDriehoek.linkerDriehoek" />
+        <item itemvalue="JUnit.Dag06.rechterDriehoek" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,5 +97,30 @@
       <workItem from="1600248785317" duration="1000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1556" height="392" key="GridCell.Tab.0.bottom" timestamp="1600249881385">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="392" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600249881385" />
+    <state width="1556" height="392" key="GridCell.Tab.0.center" timestamp="1600249881385">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="392" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600249881385" />
+    <state width="1556" height="392" key="GridCell.Tab.0.left" timestamp="1600249881384">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="392" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600249881384" />
+    <state width="1556" height="392" key="GridCell.Tab.0.right" timestamp="1600249881385">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="392" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600249881385" />
+    <state x="182" y="89" key="new project wizard" timestamp="1600248780413">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="89" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1600248780413" />
   </component>
 </project>
