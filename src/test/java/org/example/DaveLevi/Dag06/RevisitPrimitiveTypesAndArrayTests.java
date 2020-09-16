@@ -1,8 +1,11 @@
 package org.example.DaveLevi.Dag06;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Convert;
 
 import java.util.Arrays;
+
+import java.util.Scanner;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -10,14 +13,14 @@ public class RevisitPrimitiveTypesAndArrayTests {
 
     @Test
     void primitiveTypes() {
-        byte a;
-        short b;
-        int c;
-        long d;
-        double e;
-        float f;
-        boolean g;
-        char h;
+        byte a = 12;
+        short b = 52;
+        int c = 23;
+        long d = 5621;
+        double e = 52.78;
+        float f = 99;
+        boolean g = true;
+        char h = 'f';
     }
 
     @Test
@@ -93,5 +96,17 @@ public class RevisitPrimitiveTypesAndArrayTests {
         String[] namen = {"Sjoerd","Sam","Majid","Changir","Rein","Dennis","Evan","Mike","Dave","Joshua"};
         Arrays.sort(namen);
         System.out.println(Arrays.toString(namen));
+        Arrays.sort(namen, (a, b)->Integer.compare(a.length(), b.length()));
+        System.out.println(Arrays.toString(namen));
     }
+
+    @Test
+    void namensorteerMachine() {
+        boolean done = false;
+        Scanner machine = new Scanner(System.in);
+        while(done == false) {
+                        
+        }
+    }
+
 }
