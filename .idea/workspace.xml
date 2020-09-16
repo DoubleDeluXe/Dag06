@@ -3,14 +3,43 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ba95e48b-cb82-4cf0-8f4f-33e060e591a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06RechtsDriehoek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06GevuldeDriehoek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,14 +62,32 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.Dag06LinksDriehoek.linkerDriehoek">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Dag06GevuldeDriehoek.linkerDriehoek">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dag06GevuldeDriehoek.linkerDriehoek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dag06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DaveLevi.Dag06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.Dag06GevuldeDriehoek" />
+      <option name="METHOD_NAME" value="linkerDriehoek" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Dag06GevuldeDriehoek.linkerDriehoek" />
         <item itemvalue="JUnit.Dag06LinksDriehoek.linkerDriehoek" />
         <item itemvalue="JUnit.Dag06RechtsDriehoek.rechterDriehoek" />
       </list>
@@ -93,6 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600248783508</updated>
       <workItem from="1600248785317" duration="1000" />
+      <workItem from="1600256007865" duration="926000" />
     </task>
     <servers />
   </component>
@@ -109,24 +158,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1556" height="392" key="GridCell.Tab.0.bottom" timestamp="1600249957491">
+    <state width="1556" height="217" key="GridCell.Tab.0.bottom" timestamp="1600256676587">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="392" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600249957491" />
-    <state width="1556" height="392" key="GridCell.Tab.0.center" timestamp="1600249957491">
+    <state width="1556" height="217" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600256676587" />
+    <state width="1556" height="217" key="GridCell.Tab.0.center" timestamp="1600256676587">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="392" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600249957491" />
-    <state width="1556" height="392" key="GridCell.Tab.0.left" timestamp="1600249957491">
+    <state width="1556" height="217" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600256676587" />
+    <state width="1556" height="217" key="GridCell.Tab.0.left" timestamp="1600256676587">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="392" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600249957491" />
-    <state width="1556" height="392" key="GridCell.Tab.0.right" timestamp="1600249957491">
+    <state width="1556" height="217" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600256676587" />
+    <state width="1556" height="217" key="GridCell.Tab.0.right" timestamp="1600256676587">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="392" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600249957491" />
+    <state width="1556" height="217" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600256676587" />
+    <state width="1556" height="270" key="GridCell.Tab.1.bottom" timestamp="1600256395683">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="270" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600256395683" />
+    <state width="1556" height="270" key="GridCell.Tab.1.center" timestamp="1600256395683">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="270" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1600256395683" />
+    <state width="1556" height="270" key="GridCell.Tab.1.left" timestamp="1600256395683">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="270" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1600256395683" />
+    <state width="1556" height="270" key="GridCell.Tab.1.right" timestamp="1600256395683">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1600256395683" />
     <state x="182" y="89" key="new project wizard" timestamp="1600248780413">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -4,8 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Scanner;
 
-public class Dag06LinksDriehoek {
-
+public class Dag06GevuldeDriehoek {
 
     @Test
     void linkerDriehoek() {
@@ -16,11 +15,13 @@ public class Dag06LinksDriehoek {
         for (int i = 0; i < size-1; i++) {
             linkerDrioehoekAfbouwen(i, size);
             printAt();
+            printAt();
             System.out.println();
         }
 
         for (int i = 0; i < size; i++) {
             linkerDriehoekOpbowen(i, size);
+            printAt();
             printAt();
             System.out.println();
         }
@@ -34,6 +35,7 @@ public class Dag06LinksDriehoek {
         for (int x = size-i; i < size-1; i++) {
             printStar();
         }
+
     }
     void linkerDrioehoekAfbouwen(int i, int size) {
         for (int j = size; i < j; j = j -1){
@@ -52,6 +54,6 @@ public class Dag06LinksDriehoek {
         System.out.print("* ");
     }
     void printSpace() {
-        System.out.print("  ");
+        System.out.print("@ ");
     }
 }
