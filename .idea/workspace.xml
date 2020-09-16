@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b26a423f-9db2-47ad-8e3a-d97f0c3fa39e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06.class" afterDir="false" />
@@ -31,6 +32,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +72,7 @@
       <recent name="org.example.DaveLevi.Dag06" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Dag06.rechterDriehoek">
+  <component name="RunManager" selected="JUnit.Dag06LinksDriehoek.linkerDriehoek">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -72,6 +80,22 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dag06LinksDriehoek.linkerDriehoek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dag06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DaveLevi.Dag06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.Dag06LinksDriehoek" />
+      <option name="METHOD_NAME" value="linkerDriehoek" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,22 +127,6 @@
       <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
       <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.RevisitPrimitiveTypesAndArrayTests" />
       <option name="METHOD_NAME" value="HandigereForloopDeEnhancedForloop" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RevisitPrimitiveTypesAndArrayTests.eenNogHandigereManier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Dag06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DaveLevi.Dag06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.RevisitPrimitiveTypesAndArrayTests" />
-      <option name="METHOD_NAME" value="eenNogHandigereManier" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Dag06LinksDriehoek.linkerDriehoek" />
         <item itemvalue="JUnit.Dag06.rechterDriehoek" />
         <item itemvalue="JUnit.RevisitPrimitiveTypesAndArrayTests.primitiveTypes" />
         <item itemvalue="JUnit.RevisitPrimitiveTypesAndArrayTests.hetMakenVanEenStriungArray" />
         <item itemvalue="JUnit.RevisitPrimitiveTypesAndArrayTests.HandigereForloopDeEnhancedForloop" />
-        <item itemvalue="JUnit.RevisitPrimitiveTypesAndArrayTests.eenNogHandigereManier" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +184,7 @@
       <updated>1600153592872</updated>
       <workItem from="1600153593960" duration="1000" />
       <workItem from="1600168126333" duration="9105000" />
-      <workItem from="1600243762360" duration="2086000" />
+      <workItem from="1600243762360" duration="4021000" />
     </task>
     <servers />
   </component>
@@ -196,38 +204,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1556" height="257" key="GridCell.Tab.0.bottom" timestamp="1600245629616">
+    <state width="1556" height="275" key="GridCell.Tab.0.bottom" timestamp="1600247698032">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="257" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600245629616" />
-    <state width="1556" height="257" key="GridCell.Tab.0.center" timestamp="1600245629616">
+    <state width="1556" height="275" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600247698032" />
+    <state width="1556" height="275" key="GridCell.Tab.0.center" timestamp="1600247698031">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="257" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600245629616" />
-    <state width="1556" height="257" key="GridCell.Tab.0.left" timestamp="1600245629616">
+    <state width="1556" height="275" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600247698031" />
+    <state width="1556" height="275" key="GridCell.Tab.0.left" timestamp="1600247698031">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="257" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600245629616" />
-    <state width="1556" height="257" key="GridCell.Tab.0.right" timestamp="1600245629616">
+    <state width="1556" height="275" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600247698031" />
+    <state width="1556" height="275" key="GridCell.Tab.0.right" timestamp="1600247698032">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="257" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600245629616" />
-    <state width="1556" height="270" key="GridCell.Tab.1.bottom" timestamp="1600244621235">
+    <state width="1556" height="275" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600247698032" />
+    <state width="1556" height="270" key="GridCell.Tab.1.bottom" timestamp="1600246943949">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="270" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600244621235" />
-    <state width="1556" height="270" key="GridCell.Tab.1.center" timestamp="1600244621235">
+    <state width="1556" height="270" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600246943949" />
+    <state width="1556" height="270" key="GridCell.Tab.1.center" timestamp="1600246943949">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="270" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1600244621235" />
-    <state width="1556" height="270" key="GridCell.Tab.1.left" timestamp="1600244621235">
+    <state width="1556" height="270" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1600246943949" />
+    <state width="1556" height="270" key="GridCell.Tab.1.left" timestamp="1600246943949">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="270" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1600244621235" />
-    <state width="1556" height="270" key="GridCell.Tab.1.right" timestamp="1600244621235">
+    <state width="1556" height="270" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1600246943949" />
+    <state width="1556" height="270" key="GridCell.Tab.1.right" timestamp="1600246943949">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1600244621235" />
+    <state width="1556" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1600246943949" />
     <state x="668" y="323" key="save.project.as.template.dialog" timestamp="1600243823496">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

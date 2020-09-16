@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Scanner;
 
-public class Dag06 {
+public class Dag06LinksDriehoek {
+
 
     @Test
     void rechterDriehoek() {
