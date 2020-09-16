@@ -13,7 +13,7 @@ public class Dag06 {
             rechterDriehoekOpbouwen(i);
             System.out.println();
         }
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < size-1; i++) { //hier zat het probleem
             rechterDriehoekAfbouwen(i, size-1);
             System.out.println();
         }
