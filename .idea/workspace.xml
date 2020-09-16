@@ -30,10 +30,12 @@
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/RevisitPrimitiveTypesAndArrayTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/RevisitPrimitiveTypesAndArrayTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06.class" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/RevisitPrimitiveTypesAndArrayTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/RevisitPrimitiveTypesAndArrayTests.class" afterDir="false" />
 >>>>>>> 354c8f47d0e9d47681f36c9c20dc832b23cfab9d
+=======
+>>>>>>> 62907ac546d1240af616ef25a73669e931434f38
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,8 +199,12 @@
       <workItem from="1600245418412" duration="80000" />
 =======
       <workItem from="1600168126333" duration="9105000" />
+<<<<<<< HEAD
       <workItem from="1600243762360" duration="1157000" />
 >>>>>>> 354c8f47d0e9d47681f36c9c20dc832b23cfab9d
+=======
+      <workItem from="1600243762360" duration="2086000" />
+>>>>>>> 62907ac546d1240af616ef25a73669e931434f38
     </task>
     <servers />
   </component>
@@ -225,22 +231,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1556" height="257" key="GridCell.Tab.0.bottom" timestamp="1600244871753">
+    <state width="1556" height="257" key="GridCell.Tab.0.bottom" timestamp="1600245629616">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="257" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600244871753" />
-    <state width="1556" height="257" key="GridCell.Tab.0.center" timestamp="1600244871753">
+    <state width="1556" height="257" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600245629616" />
+    <state width="1556" height="257" key="GridCell.Tab.0.center" timestamp="1600245629616">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="257" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600244871753" />
-    <state width="1556" height="257" key="GridCell.Tab.0.left" timestamp="1600244871753">
+    <state width="1556" height="257" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600245629616" />
+    <state width="1556" height="257" key="GridCell.Tab.0.left" timestamp="1600245629616">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="257" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600244871753" />
-    <state width="1556" height="257" key="GridCell.Tab.0.right" timestamp="1600244871753">
+    <state width="1556" height="257" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600245629616" />
+    <state width="1556" height="257" key="GridCell.Tab.0.right" timestamp="1600245629616">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="257" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600244871753" />
+    <state width="1556" height="257" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600245629616" />
     <state width="1556" height="270" key="GridCell.Tab.1.bottom" timestamp="1600244621235">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
