@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba95e48b-cb82-4cf0-8f4f-33e060e591a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06GevuldeDriehoek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/DriehoekBovenEnBeneden.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/Dag06/Dag06LinksDriehoek.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,22 +57,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesdag06Java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.Dag06GevuldeDriehoek.linkerDriehoek">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Dag06RechtsDriehoek.rechterDriehoek">
     <configuration name="Dag06GevuldeDriehoek.linkerDriehoek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dag06" />
       <extension name="coverage">
@@ -124,11 +116,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DriehoekBovenEnBeneden.printDriehoekMetPuntNaarBenenden" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dag06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DaveLevi.Dag06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.DriehoekBovenEnBeneden" />
+      <option name="METHOD_NAME" value="printDriehoekMetPuntNaarBenenden" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriehoekBovenEnBeneden.printDriehoekMetPuntNaarBoven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dag06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DaveLevi.Dag06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.DriehoekBovenEnBeneden" />
+      <option name="METHOD_NAME" value="printDriehoekMetPuntNaarBoven" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Dag06GevuldeDriehoek.linkerDriehoek" />
-        <item itemvalue="JUnit.Dag06LinksDriehoek.linkerDriehoek" />
         <item itemvalue="JUnit.Dag06RechtsDriehoek.rechterDriehoek" />
+        <item itemvalue="JUnit.Dag06LinksDriehoek.linkerDriehoek" />
+        <item itemvalue="JUnit.Dag06GevuldeDriehoek.linkerDriehoek" />
+        <item itemvalue="JUnit.DriehoekBovenEnBeneden.printDriehoekMetPuntNaarBenenden" />
+        <item itemvalue="JUnit.DriehoekBovenEnBeneden.printDriehoekMetPuntNaarBoven" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +167,9 @@
       <option name="presentableId" value="Default" />
       <updated>1600248783508</updated>
       <workItem from="1600248785317" duration="1000" />
-      <workItem from="1600256007865" duration="926000" />
+      <workItem from="1600256007865" duration="1749000" />
+      <workItem from="1600270877061" duration="851000" />
+      <workItem from="1600326505988" duration="773000" />
     </task>
     <servers />
   </component>
@@ -161,22 +189,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1556" height="217" key="GridCell.Tab.0.bottom" timestamp="1600256676587">
+    <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1600270943237">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600256676587" />
-    <state width="1556" height="217" key="GridCell.Tab.0.center" timestamp="1600256676587">
+    <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600270943237" />
+    <state width="1556" height="216" key="GridCell.Tab.0.bottom" timestamp="1600271736477">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600256676587" />
-    <state width="1556" height="217" key="GridCell.Tab.0.left" timestamp="1600256676587">
+    <state width="1556" height="216" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600271736477" />
+    <state width="1556" height="216" key="GridCell.Tab.0.center" timestamp="1600271736477">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600256676587" />
-    <state width="1556" height="217" key="GridCell.Tab.0.right" timestamp="1600256676587">
+    <state width="1556" height="216" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600271736477" />
+    <state width="1556" height="216" key="GridCell.Tab.0.left" timestamp="1600271736477">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="217" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600256676587" />
+    <state width="1556" height="216" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600271736477" />
+    <state width="1556" height="216" key="GridCell.Tab.0.right" timestamp="1600271736477">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="216" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600271736477" />
     <state width="1556" height="270" key="GridCell.Tab.1.bottom" timestamp="1600256395683">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -193,6 +225,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1556" height="270" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1600256395683" />
+    <state x="301" y="60" key="SettingsEditor" timestamp="1600270917879">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="60" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600270917879" />
     <state x="182" y="89" key="new project wizard" timestamp="1600248780413">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
