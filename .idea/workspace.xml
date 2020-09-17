@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba95e48b-cb82-4cf0-8f4f-33e060e591a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/DriehoekBovenEnBeneden.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +67,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="JUnit.Dag06RechtsDriehoek.rechterDriehoek">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Dag06GevuldeDriehoek.linkerDriehoek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dag06" />
       <extension name="coverage">
@@ -169,7 +181,7 @@
       <workItem from="1600248785317" duration="1000" />
       <workItem from="1600256007865" duration="1749000" />
       <workItem from="1600270877061" duration="851000" />
-      <workItem from="1600326505988" duration="773000" />
+      <workItem from="1600326505988" duration="2223000" />
     </task>
     <servers />
   </component>
