@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba95e48b-cb82-4cf0-8f4f-33e060e591a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/Dag06/ZelfBovenBeneden.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,32 +67,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.Dag06RechtsDriehoek.rechterDriehoek">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ZelfBovenBeneden.main">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dag06GevuldeDriehoek.linkerDriehoek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Dag06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DaveLevi.Dag06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.Dag06GevuldeDriehoek" />
-      <option name="METHOD_NAME" value="linkerDriehoek" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,22 +90,6 @@
       <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
       <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.Dag06LinksDriehoek" />
       <option name="METHOD_NAME" value="linkerDriehoek" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dag06RechtsDriehoek.rechterDriehoek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Dag06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DaveLevi.Dag06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.Dag06RechtsDriehoek" />
-      <option name="METHOD_NAME" value="rechterDriehoek" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +127,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZelfBovenBeneden.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dag06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DaveLevi.Dag06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DaveLevi.Dag06" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.Dag06.ZelfBovenBeneden" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[Local] ZelfBovenBeneden.main" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" />
+      <option name="regionId" value="us-east-1" />
+      <option name="debugHost" value="localhost" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" value="org.example.DaveLevi.Dag06.ZelfBovenBeneden::main" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="128" />
+      <option name="runtime" value="java8" />
+      <option name="templateFile" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="false" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" />
+        <option name="additionalLocalArgs" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Dag06RechtsDriehoek.rechterDriehoek" />
+        <item itemvalue="JUnit.ZelfBovenBeneden.main" />
         <item itemvalue="JUnit.Dag06LinksDriehoek.linkerDriehoek" />
-        <item itemvalue="JUnit.Dag06GevuldeDriehoek.linkerDriehoek" />
+        <item itemvalue="AWS Lambda.[Local] ZelfBovenBeneden.main" />
         <item itemvalue="JUnit.DriehoekBovenEnBeneden.printDriehoekMetPuntNaarBenenden" />
         <item itemvalue="JUnit.DriehoekBovenEnBeneden.printDriehoekMetPuntNaarBoven" />
       </list>
@@ -181,7 +189,10 @@
       <workItem from="1600248785317" duration="1000" />
       <workItem from="1600256007865" duration="1749000" />
       <workItem from="1600270877061" duration="851000" />
-      <workItem from="1600326505988" duration="2223000" />
+      <workItem from="1600326505988" duration="2929000" />
+      <workItem from="1600527616813" duration="186000" />
+      <workItem from="1600528354780" duration="379000" />
+      <workItem from="1600856270219" duration="2612000" />
     </task>
     <servers />
   </component>
@@ -205,22 +216,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600270943237" />
-    <state width="1556" height="216" key="GridCell.Tab.0.bottom" timestamp="1600271736477">
+    <state width="1556" height="253" key="GridCell.Tab.0.bottom" timestamp="1600858792617">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="216" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600271736477" />
-    <state width="1556" height="216" key="GridCell.Tab.0.center" timestamp="1600271736477">
+    <state width="1556" height="253" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600858792617" />
+    <state width="1556" height="253" key="GridCell.Tab.0.center" timestamp="1600858792617">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="216" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600271736477" />
-    <state width="1556" height="216" key="GridCell.Tab.0.left" timestamp="1600271736477">
+    <state width="1556" height="253" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600858792617" />
+    <state width="1556" height="253" key="GridCell.Tab.0.left" timestamp="1600858792617">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="216" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600271736477" />
-    <state width="1556" height="216" key="GridCell.Tab.0.right" timestamp="1600271736477">
+    <state width="1556" height="253" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600858792617" />
+    <state width="1556" height="253" key="GridCell.Tab.0.right" timestamp="1600858792617">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="216" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600271736477" />
+    <state width="1556" height="253" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600858792617" />
     <state width="1556" height="270" key="GridCell.Tab.1.bottom" timestamp="1600256395683">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
